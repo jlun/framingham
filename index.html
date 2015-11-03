@@ -7,18 +7,25 @@
 </head>
 <body>
 <div class="wrap">
-  <div class="Framingham ">
+  <div class="Framingham">
       <H1>佛萊明心血管風險評估 (Framinham Risk Score)</H1>
       <div class="questionnaire">
-        <label>性別：<input type="radio" name="sex" id="sex" value="male" />男、
+        <p class="q"><label>性別：<input type="radio" name="sex" id="sex" value="male" />男、
                     <input type="radio" name="sex" id="sex" value="female" />女
-          </label><br />
-        <label>年齡：<input type="text" name="age" id="age" /><br /></label>
-        <label>血液總膽固醇濃度(mg/dl)：<input type="text" name="ldl" id="ldl" /><br /></label>
-        <label>血液高密度膽固醇濃度(mg/dl)：<input type="text" name="hdl" id="hdl" /> <br /></label>
-        <label>收縮壓：<input type="text" name="sbp" id="sbp" /><br /></label>
-
+          </label></p>
+        <p class="q"><label>年齡：<input type="text" name="age" id="age" /></label></p>
+        <p class="q"><label>血液總膽固醇濃度：<input type="text" name="ldl" id="ldl" />mg/dl</label></p>
+        <p class="q"><label>血液高密度膽固醇濃度：<input type="text" name="hdl" id="hdl" />mg/dl</label></p>
+        <p class="q"><label>收縮壓：<input type="text" name="sbp" id="sbp" />mmHg</label></p>
+        <p class="q"><label>舒張壓：<input type="text" name="dbp" id="dbp" />mmHg</label></p>
+        <p class="q"><label>是否有糖尿病：<input type="radio" name="dm" id="dm" value="0" />無、
+                                        <input type="radio" name="dm" id="dm" value="1" />有</label></p>
+        <p class="q"><label>是否抽菸：<input type="radio" name="tobacco" id="tobacco" value="0" />無、
+                                     <input type="radio" name="tobacco" id="tobacco" value="1" />有</p>
       </div>
+  </div>
+  <div class="score">
+
   </div>
 </div>
 </body>
