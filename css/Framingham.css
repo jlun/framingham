@@ -1,0 +1,15 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+div.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  text-align: left;
+  width:800px;
+}
+div.questionnaire {
+  border: 1px solid black;
+}
