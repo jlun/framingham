@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #ccc;
 }
 div.wrap {
   margin-left: auto;
@@ -9,13 +10,27 @@ div.wrap {
   padding: 0;
   text-align: left;
   width:800px;
+  background: white;
 }
 div.Framingham {
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
-  padding: 5px;
+  width: 780px;
+  padding: 3px;
 }
 div.questionnaire {
   border: 1px solid black;
+}
+
+div.score {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+div.ref {
+    padding: 15px;
+}
+div.ref > ol {
+    width:600px;
+    text-align: justify;
 }
